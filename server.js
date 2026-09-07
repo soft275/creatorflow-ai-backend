@@ -109,7 +109,7 @@ CALL TO ACTION
 `;
 
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-3.6-flash",
             contents: prompt
         });
 
@@ -198,7 +198,7 @@ Continue until all important scenes are covered.
 `;
 
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+          model: "gemini-3.6-flash",
             contents: prompt
         });
 
