@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 // ===============================
 
 app.post("/api/generate-script", async (req, res) => {
-
+console.log("🔥 GENERATE SCRIPT REQUEST RECEIVED");
     try {
 
         const {
